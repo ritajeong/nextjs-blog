@@ -12,9 +12,9 @@ export default function Home() {
       <main>
         <h1 className="title">
           Read{' '}
-          <a href="/posts/first-post">
+          <Link href="/posts/first-post">
             <a>this page!</a>
-          </a>
+          </Link>
         </h1>
 
         <p className="description">
@@ -46,6 +46,7 @@ export default function Home() {
           </a>
         </div>
       </main>
+      <img src="/images/profile.jpg" alt="Your Name" />
 
       <footer>
         <a
